@@ -4,8 +4,8 @@
   status = 404
 
 [[redirects]]
-  from = "/prints"
-  to = "shop/prints.html"
+  from = "/printshop"
+  to = "shop/printshop.html"
   status = 301
 
 [[headers]]
