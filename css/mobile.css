@@ -1,0 +1,290 @@
+@media screen and (min-width: 320px) and (max-width: 786px) {
+  .navbar {
+    flex-direction: column;
+    position: relative;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
+  .container-icon {
+    width: 100%;
+    max-width: 20%;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+  }
+
+  .icon {
+    height: 40px;
+    margin-top: 10px;
+  }
+
+  .menu {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 30px;
+  }
+
+  .list-item {
+    display: block;
+  }
+
+  .nav-list {
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    display: none;
+    margin-top: 5rem;
+  }
+
+  .active {
+    display: block;
+  }
+
+  .extra {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 786px) {
+  .landing-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 75vh;
+  }
+
+  .landing-page-laptop {
+    display: none;
+  }
+
+  .landing-page-mobile {
+    display: block;
+    padding: 1rem;
+  }
+
+  .landing-page-mobile img {
+    padding: 1rem;
+  }
+
+  .backToTopBtn {
+    bottom: 20px;
+    right: 30px;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 0px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 786px) {
+  .about-container {
+    height: auto;
+  }
+
+  .about-page {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .biography-section {
+    max-width: 100%;
+  }
+
+  .biography {
+    font-family: "Roboto", sans-serif;
+    line-height: 2rem;
+    width: 100%;
+    color: black;
+  }
+
+  .bio-image-laptop {
+    display: none;
+  }
+
+  .bio-image-mobile {
+    height: auto;
+    padding: 2rem;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 786px) {
+  .project-page-container {
+    padding: 1rem;
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    gap: 2rem;
+  }
+
+  .article-project-page {
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 1rem;
+    padding: 0.5rem;
+  }
+
+  .card {
+    max-width: 100%;
+  }
+
+  .quote-container-p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 2rem;
+  }
+}
+
+/* Potrait Page */
+
+@media screen and (min-width: 320px) and (max-width: 786px) {
+  .potrait-page-container {
+    padding: 0.5rem;
+    height: auto;
+    gap: 2rem;
+  }
+
+  .potraits-images {
+    justify-content: column;
+    gap: 1.5rem;
+  }
+}
+
+/* Contact Page */
+
+@media screen and (min-width: 320px) and (max-width: 786px) {
+  .contact-main {
+    max-width: 100%;
+    padding: 0.5rem;
+
+  }
+.contact-container {
+  padding-top: 2rem;
+}
+    .contact-container::after { 
+    background-image: none;
+    }
+
+  .form-container {
+    width: 100%;
+  }
+
+  .contact {
+    width: 100%;
+
+  }
+
+  form {
+    width: 100%;
+  }
+}
+
+/* Project Page */
+
+@media screen and (min-width: 320px) and (max-width: 786px) {
+  .main-container {
+    padding: 0.5rem;
+  }
+
+  .carousel {
+    display: none;
+  }
+
+  .main-exhibition {
+    display: none;
+  }
+
+  .project-page-container {
+
+    padding-top: 2rem;
+  }
+
+  .project-container {
+    padding: 0.5rem;
+  }
+
+  .projects-title {
+    margin-left: 0rem;
+  }
+
+  .mobile {
+    display: block;
+    padding: 10px;
+    margin-bottom: 2rem;
+  }
+
+  .mobile img {
+    margin-bottom: 1rem;
+  }
+}
+
+/* Footer */
+
+@media screen and (min-width: 320px) and (max-width: 786px) {
+  .footer-container {
+    padding-top: 5rem;
+
+  }
+
+  .footerDiv {
+    flex-direction: column;
+
+  }
+
+  .dis {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 786px) {
+  .print-shop-introduction::after {}
+
+
+  .gallery-page {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+
+  }
+
+  .gallery-page-images {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+
+  }
+
+  aside {
+    width: 100%;
+  }
+
+  .gallery-page-images article img {
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  .landscape-images {
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+}
