@@ -247,7 +247,7 @@ select {
 }
 
 .slider-image {
-  background-color: #f8cdd8;
+  padding: 1rem;
 }
 
 /* About Page */
@@ -555,7 +555,8 @@ aside div {
   padding-top: 2rem;
 }
 
-.print-type-name,.gallery-page-title {
+.print-type-name,
+.gallery-page-title {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -564,9 +565,10 @@ aside div {
 
 .gallery-page-paragraph {
   font-family: "Roboto", sans-serif;
- font-weight: 400;
+  font-weight: 400;
   font-size: 16px;
 }
+
 .gallery-page-paragraph a {
   color: steelblue;
   text-decoration: none;
@@ -605,7 +607,7 @@ aside div {
 .gallery-page-images article img {
   max-width: 400px;
   width: 100%;
-  
+
 }
 
 .gallery-page-images section {
@@ -619,6 +621,49 @@ aside div {
   width: 100%;
   max-width: 820px;
 }
+
+.nft-listing-page-introduction {
+  padding: 0.25rem;
+}
+
+.nft-listing-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.nft-listing-introduction {}
+
+.nft-listing-paragraph {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  max-width: 700px;
+}
+
+.nft-listing-article {
+  display: flex;
+  flex-direction: column;
+}
+
+.nft-listing-article-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1rem;
+  max-width: 1000px;
+  padding: 0.25rem;
+}
+
+.nft-listing-links {
+  text-decoration: none;
+  color: orangered;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
 
 
 
