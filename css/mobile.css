@@ -57,7 +57,7 @@
     align-items: center;
     max-width: 1400px;
     margin: 0 auto;
-    height: 75vh;
+    height: auto;
   }
 
   .landing-page-laptop {
@@ -67,10 +67,12 @@
   .landing-page-mobile {
     display: block;
     padding: 1rem;
+    padding-top: 3rem;
   }
 
   .landing-page-mobile img {
     padding: 1rem;
+      padding-top: 2rem;
   }
 
   .backToTopBtn {
@@ -239,7 +241,7 @@
 
 @media screen and (min-width: 320px) and (max-width: 786px) {
   .footer-container {
-    padding-top: 5rem;
+    padding-top: 3rem;
 
   }
 

@@ -3,11 +3,6 @@
   to = "/page-not-found.html"
   status = 404
 
-[[redirects]]
-  from = "/printshop"
-  to = "shop/printshop.html"
-  status = 301
-
 [[headers]]
   for = "/*"
   [headers.values]
