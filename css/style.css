@@ -333,7 +333,7 @@ aside {
   gap: 1rem;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 2.5rem;
+  padding: 1.5rem;
 }
 
 .project-page-intro-title {
@@ -348,25 +348,30 @@ aside {
   font-family: "Roboto", sans-serif;
   line-height: 1.5rem;
   max-width: 550px;
-  margin: 0 auto;
 }
 
 .card-container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   max-width: 1200px;
   margin: 0 auto;
   height: auto;
-  gap: 1.5rem;
+  gap: 1rem;
   padding: 1.5rem;
 }
 
 .card {
   max-width: 350px;
   position: relative;
+  padding: 0.5rem;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
 }
 
 .project-title {
@@ -1085,6 +1090,8 @@ label {
   text-align: center;
   align-items: center;
   font-size: 14px;
+  font-weight: bold;
+  padding: 0.5rem;
 }
 
 .copyright {
